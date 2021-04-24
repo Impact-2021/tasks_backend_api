@@ -14,7 +14,6 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.Map;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 public class GetMenuItemHandler implements RequestHandler<APIGatewayProxyRequestEvent, APIGatewayProxyResponseEvent> {
@@ -76,6 +75,7 @@ public class GetMenuItemHandler implements RequestHandler<APIGatewayProxyRequest
         finally{
             closeConnection();
         }
+
         APIGatewayProxyResponseEvent response = new APIGatewayProxyResponseEvent();
         response.setStatusCode(200);
         Map<String, String> headers = new HashMap<>();
