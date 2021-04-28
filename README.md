@@ -17,7 +17,7 @@
 * **Success Response:**
 
   * **Code:** 200 <br />
-    **Content:** `{
+    **Content(For Restaurant):** `{
 rest_id: 1,
 rest_name: "Nandos",
 rest_branch: "St.Albans",
