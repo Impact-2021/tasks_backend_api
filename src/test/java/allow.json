@@ -1,0 +1,11 @@
+{
+  "rest_id": 1,
+  "rest_name": "Nandos",
+  "rest_branch": "St.Albans",
+  "allergen_safety": "If you have a food allergy or intolerance, it",
+  "sys_creation_date": 1618358400000,
+  "sys_update_date": 1618358400000,
+  "user_id": 111,
+  "application_id": "app001",
+  "version_code": "v1"
+}
